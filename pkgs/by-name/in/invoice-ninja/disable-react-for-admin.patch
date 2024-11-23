@@ -1,0 +1,13 @@
+diff --git a/app/Console/Commands/CreateAccount.php b/app/Console/Commands/CreateAccount.php
+index 228f8e8283..1ff3c54a61 100644
+--- a/app/Console/Commands/CreateAccount.php
++++ b/app/Console/Commands/CreateAccount.php
+@@ -79,7 +79,7 @@ class CreateAccount extends Command
+         $company->save();
+ 
+         $account->default_company_id = $company->id;
+-        $account->set_react_as_default_ap = true;
++        $account->set_react_as_default_ap = false;
+         $account->save();
+ 
+         $email = $this->option('email') ?? 'admin@example.com';
