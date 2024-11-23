@@ -1456,6 +1456,7 @@
   ./services/web-apps/ifm.nix
   ./services/web-apps/immich.nix
   ./services/web-apps/invidious.nix
+  ./services/web-apps/invoice-ninja.nix
   ./services/web-apps/invoiceplane.nix
   ./services/web-apps/isso.nix
   ./services/web-apps/jirafeau.nix
