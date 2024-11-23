@@ -9,16 +9,16 @@
 
 php.buildComposerProject (finalAttrs: {
   pname = "invoice-ninja";
-  version = "5.10.53";
+  version = "5.10.55";
 
   src = fetchFromGitHub {
     owner = "invoiceninja";
     repo = "invoiceninja";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-LwRmtHLAFQbUm6qLxMotQzskLWadw1S3yFfSa6cPW6w=";
+    hash = "sha256-U3khWlUifEZQeB/FNv86hS6UN9Q7kwtaImPIU0rhg4g=";
   };
 
-  vendorHash = "sha256-vmHFvJS5JpdmgzLiR/f1on7RdvxHRkwVcxL5T4RDscI=";
+  vendorHash = "sha256-VWNGIEyiO6zS0kpgPq07B4S3JcU4JfZxJpOfkMITDvY=";
 
   # Patch sources for more restrictive permissions
   patches = [
